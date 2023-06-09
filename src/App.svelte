@@ -15,36 +15,36 @@
   let lockon;
   let message;
   async function openlock(){
-    let lockon = await fetch("./openlock")//call api to open lock
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/openlock")//call api to open lock
     
   }
   async function lightson(){
-    let lockon = await fetch("./lighton")//call api to turn on lights 
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/lighton")//call api to turn on lights 
   }
   async function lightsoff(){
-    let lockon = await fetch("./lightoff")//call api to turn off lights
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/lightoff")//call api to turn off lights
   }
 
   async function checkson(){
-    let lockon = await fetch("./oncheck")//call api to set messenger into check mode
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/oncheck")//call api to set messenger into check mode
   }
   async function checksoff(){
-    let lockon = await fetch("./offcheck")//call api to set messenger out of check mode
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/offcheck")//call api to set messenger out of check mode
   }
   async function nextson(){
-    let lockon = await fetch("./onnext")//call api to check next message 
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/onnext")//call api to check next message 
   }
   async function nextsoff(){
-    let lockon = await fetch("./offnext")//call api to lock next message 
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/offnext")//call api to lock next message 
   }
   async function doneson(){
-    let lockon = await fetch("./ondone")//call api to clear messenger
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/ondone")//call api to clear messenger
   }
   async function donesoff(){
-    let lockon = await fetch("./offdone")//call api to cancel messenger clear
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/offdone")//call api to cancel messenger clear
   }
   async function messengers(){
-    let lockon = await fetch("./message?message=${message}")//call api to write to messenger
+    let lockon = await fetch("https://flask-hello-world-git-main-humzahokadia-gmailcom.vercel.app/message?message=${message}")//call api to write to messenger
   }
   
   function messenger() {
