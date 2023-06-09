@@ -15,7 +15,7 @@
   let lockon;
   let message;
   async function openlock(){
-    let lockon = await fetch("/openlock")//call api to open lock
+    let lockon = await fetch("./openlock")//call api to open lock
     
   }
   async function lightson(){
